@@ -1,7 +1,4 @@
----
-title: Markdown Testing
----
-
+# Markdown Testing
 
 This is where I test things that I learn about markdown.
 
