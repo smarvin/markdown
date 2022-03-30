@@ -1,4 +1,8 @@
-# Markdown Testing
+---
+title: Markdown Testing
+---
+
+
 This is where I test things that I learn about markdown.
 
 ## Diagrams from markdown text
@@ -39,6 +43,30 @@ flowchart LR
     C -->|One| D[Result one]
     C -->|Two| E[Result two]
    ```
+## Expand/collapse in markdown
+I'm not a big fan but here it is:
+
+```
+<details>
+<summary>To make sure markdown is rendered correctly in the collapsed section...</summary>
+
+ 1. Put an **empty line** after the `<summary>` block.
+ 2. *Insert your markdown syntax*
+ 3. Put an **empty line** before the `</details>` tag
+ 
+</details>
+```
+displays as:
+<details>
+<summary>To make sure markdown is rendered correctly in the collapsed section...</summary>
+
+ 1. Put an **empty line** after the `<summary>` block.
+ 2. *Insert your markdown syntax*
+ 3. Put an **empty line** before the `</details>` tag
+ 
+</details>
+
+
 ## Markdown footnotes
 I'm still not sure about footnotes in web content. But they seem to be sticking around. I blame whitepapers. In any event, here's the code for creating footnotes in markdown.
 ```
@@ -50,6 +78,11 @@ The quick brown fox[^1] jumped over the lazy dog[^2].
 displays as:
 
 The quick brown fox[^1] jumped over the lazy dog[^2].
+
+## Tooltips in Markdown
+This could be useful using acronymns. 
+
+This a <abbr title="web data connector">WDC</abbr>.
 
 [^1]: Foxes are red
 [^2]: Dogs are usually not red
