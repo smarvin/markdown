@@ -39,3 +39,17 @@ flowchart LR
     C -->|One| D[Result one]
     C -->|Two| E[Result two]
    ```
+## Markdown footnotes
+I'm still not sure about footnotes in web content. But they seem to be sticking around. I blame whitepapers. In any event, here's the code for creating footnotes in markdown.
+```
+The quick brown fox[^1] jumped over the lazy dog[^2].
+
+[^1]: Foxes are red
+[^2]: Dogs are usually not red
+```
+displays as:
+
+The quick brown fox[^1] jumped over the lazy dog[^2].
+
+[^1]: Foxes are red
+[^2]: Dogs are usually not red
