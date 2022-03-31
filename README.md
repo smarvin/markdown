@@ -79,7 +79,7 @@ The quick brown fox[^1] jumped over the lazy dog[^2].
 ## Tooltips in Markdown
 This could be useful using acronymns. 
 
-This a <abbr title="web data connector">WDC</abbr>.
+This a [WDC](#code "web data connector"). The code is pretty hacky and we should probably use the Jekyll (or Hugo or whatever) ability to include content from the YAML frontmatter keep our gloss terms in either one place (like a file) or at least at the top of each topic.
 
 [^1]: Foxes are red
 [^2]: Dogs are usually not red
